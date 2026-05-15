@@ -1,5 +1,7 @@
 /**************************************************************
  *
+ *                         emulator.c
+ *
  *     This file contains the implementation of the Emulator
  *     struct, which contains the registers, memory, program 
  *     counter, number of instructions, and halt check. This 
