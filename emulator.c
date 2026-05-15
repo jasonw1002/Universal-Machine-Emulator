@@ -1,3 +1,14 @@
+/**************************************************************
+ *
+ *     This file contains the implementation of the Emulator
+ *     struct, which contains the registers, memory, program 
+ *     counter, number of instructions, and halt check. This 
+ *     files has functions that initialize the Emulator, run
+ *     all the UM operations, and free any heap-allocated
+ *     memory. 
+ *
+ **************************************************************/
+
 #include "emulator.h"
 
 /* Emulator struct containing the register array, Memory struct
