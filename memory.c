@@ -1,3 +1,16 @@
+/**************************************************************
+ *
+ *                            memory.c
+ *
+ *     This file contains the implementation of the Memory
+ *     struct, which consists of the address space (program 
+ *     memory) and unmapped segment IDs. This file contains 
+ *     functions that handle the address space by reading
+ *     input to memory, mapping/unmapping memory, storing and
+ *     loading values, and freeing memory.
+ *     
+ **************************************************************/
+
 #include "memory.h"
 
 
