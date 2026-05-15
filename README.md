@@ -1,5 +1,6 @@
 # Universal-Machine-Emulator
 
-
-The program uses a file called "bitpack.h" made for the class. It's very simple but I need to write my own version of it for the program. 
-Also need to create a Makefile
+The program uses a file called "bitpack.h" made specifically to store instructions for the Universal Machine into 32-bit words.
+  3-bit integers a, b, and c are used to determine which of the 8 registers to manipulate
+  The UM operation being called is encoded in a 4-bit integer retrived from the beginning of the word with Bitpack_getu(word, 4, 28)
+  25-bit values to store in the register can be obtained from Bitpack_getu(word, 25, 0)
